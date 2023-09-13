@@ -1,0 +1,161 @@
+@import './components/Colors.scss';
+@import './components/Fonts.scss';
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  font-family: $Poppins;
+}
+
+.nav_header {
+  width: 100%;
+  height: 450px;
+  background-color: $paleGR;
+  padding: 5px;
+  // padding-top: 10px;
+
+  .logo_img {
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+
+  .fa-bars {
+    position: absolute;
+    right: 5px;
+    top: 50px;
+    font-size: 1.5em;
+    color: $deepRuby;
+  }
+
+  .fa-bars:hover {
+    color: $ltDeepRuby;
+  }
+
+  .photo_gallery {
+    .container {
+      width: 400px;
+      margin: 10px auto;
+      // background-color: red;
+      columns: 4;
+      column-gap: 5px;
+    }
+
+    .gallery_grid_item1 {
+      width: 250px;
+      padding: 20px;
+      break-inside: avoid;
+    }
+
+    .ggi_img {
+      width: 100%;
+      height: 100px;
+      object-fit: contain;
+    }
+  }
+
+  .nav {
+    font-size: 1.3em;
+    background-color: white;
+    border-right: 0.5px solid grey;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 275px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    transform: translateX(-100%);
+    transition: 0.5s ease-in;
+
+    &_ex {
+      color: black;
+      font-size: 2em;
+      position: absolute;
+      right: 5px;
+      top: 0px;
+    }
+
+    ul {
+      margin-top: 70px;
+    }
+
+    ul li {
+      margin: 20px 0;
+    }
+
+    &_links {
+      color: black;
+    }
+
+    &_links:hover {
+      color: rgba(0, 0, 0, 0.5);
+    }
+
+    &_line {
+      height: 1px;
+      width: 100%;
+      background-color: black;
+      margin: 30px 0;
+    }
+
+    .sign-in {
+      margin: 10px auto;
+      padding-block: 5px;
+      border-radius: 50px;
+      background-color: $deepRuby;
+      color: white;
+      width: 7em;
+    }
+
+    .sign-in:hover {
+      background-color: $ltDeepRuby;
+    }
+
+    .bi {
+      cursor: pointer;
+    }
+
+    .bi-heart:hover {
+      fill: red;
+    }
+  }
+}
+
+.active_nav {
+  transform: translateX(0%);
+  transition: 0.5s ease-in;
+}
+
+@media (min-width: 768px) {
+  .nav_header {
+    height: 490px;
+
+    .photo_gallery {
+      .container {
+        width: 500px;
+        margin: 70px auto 0 auto;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .nav_header {
+    // height: 490px;
+
+    .photo_gallery {
+      .container {
+        width: 600px;
+        margin: 70px auto 0 auto;
+      }
+    }
+  }
+}
