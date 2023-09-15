@@ -8,100 +8,81 @@ export default function PhotoGallery() {
         <div className="gallery_grid_item">
           <Image
             src="/images/gallery/greenbg.jpg"
-            alt=""
+            alt="a green room"
             width={300}
             height={300}
-            layout="responsive"
             className="ggi_img"
           />
         </div>
         <div className="gallery_grid_item">
           <Image
             src="/images/gallery/sofa-yellow-bg.jpg"
-            alt=""
+            alt="a grey sofa"
             width={300}
             height={220}
-            layout="responsive"
             className="ggi_img"
           />
         </div>
         <div className="gallery_grid_item">
           <Image
             src="/images/gallery/lr.jpg"
-            alt=""
+            alt="a boho themed room"
             width={300}
             height={220}
-            layout="responsive"
             className="ggi_img"
           />
         </div>
         <div className="gallery_grid_item">
           <Image
             src="/images/gallery/kitchen.jpg"
-            alt=""
+            alt="a white and black kitchen"
             width={300}
             height={220}
-            layout="responsive"
             className="ggi_img"
           />
         </div>
         <div className="gallery_grid_item">
           <Image
             src="/images/gallery/cutlery.jpg"
-            alt=""
+            alt="gold cutlery on a black plate"
             width={300}
             height={220}
-            layout="responsive"
             className="ggi_img"
           />
         </div>
         <div className="gallery_grid_item">
           <Image
             src="/images/gallery/two-tables.jpg"
-            alt=""
+            alt="two small tables"
             width={400}
             height={400}
-            layout="responsive"
             className="ggi_img"
           />
         </div>
         <div className="gallery_grid_item">
           <Image
             src="/images/gallery/pink-chair.jpg"
-            alt=""
+            alt="a pink chair"
             width={300}
             height={300}
-            layout="responsive"
             className="ggi_img"
           />
         </div>
         <div className="gallery_grid_item">
           <Image
             src="/images/gallery/group-dinner.jpg"
-            alt=""
+            alt="people having dinner"
             width={300}
             height={300}
-            layout="responsive"
             className="ggi_img"
           />
         </div>
         <div className="gallery_grid_item">
           <Image
             src="/images/gallery/child-desk.jpg"
-            alt=""
+            alt="a white lamp"
             width={300}
             height={300}
-            layout="responsive"
-            className="ggi_img"
-          />
-        </div>
-        <div className="gallery_grid_item">
-          <Image
-            src="/images/gallery/bed.jpg"
-            alt=""
-            width={300}
-            height={300}
-            layout="responsive"
             className="ggi_img"
           />
         </div>
