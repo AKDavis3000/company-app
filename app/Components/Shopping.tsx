@@ -9,15 +9,6 @@ export default function Shopping() {
         <div className="first_p">
           <p>Featured Items</p>
         </div>
-        <div className="filters">
-          <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
-        </div>
-
         <div className="feature_shopping_grid">
           <div className="grid_item item1">
             <Image

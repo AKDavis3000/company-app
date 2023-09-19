@@ -69,7 +69,7 @@ export default function Navbar() {
             </span>
           </ul>
         </div>
-        <nav className={isActive ? 'nav active_nav' : 'nav'}>
+        <nav className={!isActive ? 'nav active_nav' : 'nav'}>
           <div
             className="nav_ex"
             onClick={handleClick}>
